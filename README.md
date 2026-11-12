@@ -1,4 +1,4 @@
-# Hourglass
+# Hourglass: Sands of Time
 
 An hourglass for the [Omarchy](https://omarchy.org) bar. Flip it, and it shows how much time has run through since. A notification tells you when it runs out.
 

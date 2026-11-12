@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "tdh.hourglass",
-  "name": "Hourglass",
+  "name": "Hourglass: Sands of Time",
   "version": "1.0.0",
   "author": "tdh",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "Hourglass",
+    "displayName": "Hourglass: Sands of Time",
     "description": "A flippable hourglass with a configurable run time",
     "category": "Time",
     "aliases": [
