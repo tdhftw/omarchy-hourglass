@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "tdh.hourglass",
+  "name": "Hourglass",
+  "version": "1.0.0",
+  "author": "tdh",
+  "license": "MIT",
+  "description": "An hourglass in the bar: flip it, and watch how much time has run through.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Hourglass",
+    "description": "A flippable hourglass with a configurable run time",
+    "category": "Time",
+    "aliases": [
+      "timer",
+      "sand timer",
+      "countdown"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "durationMinutes": 25,
+      "style": "matrix"
+    },
+    "schema": [
+      {
+        "key": "style",
+        "type": "enum",
+        "label": "Glass style",
+        "options": [
+          "matrix",
+          "turned",
+          "square"
+        ],
+        "defaultValue": "matrix"
+      },
+      {
+        "key": "durationMinutes",
+        "type": "integer",
+        "label": "Minutes until the hourglass is empty",
+        "min": 1,
+        "max": 720,
+        "step": 1,
+        "defaultValue": 25
+      }
+    ]
+  }
+}
