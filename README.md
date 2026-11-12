@@ -26,6 +26,16 @@ omarchy plugin add https://github.com/tdhftw/omarchy-hourglass.git --enable
 
 It lands on the right side of the bar. Move it with `omarchy bar move tdh.hourglass --section <section>`, or drag it along the bar.
 
+It needs nothing beyond Omarchy itself: the shell, and `omarchy-notification-send` for the run-out notification. It makes no network requests.
+
+## Remove
+
+```bash
+omarchy plugin remove tdh.hourglass
+```
+
+To keep it installed but hide it, use `omarchy plugin disable tdh.hourglass` instead.
+
 ## Using it
 
 | Where | Action | What it does |
